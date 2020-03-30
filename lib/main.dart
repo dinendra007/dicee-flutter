@@ -22,12 +22,12 @@ class DicePage extends StatefulWidget {
 }
 
 class _DicePageState extends State<DicePage> {
-  int rightnum = 1;
-  int leftnum = 1;
+  int rightnumber = 1;
+  int leftnumber = 1;
   void changenum() {
     setState(() {
-      leftnum = Random().nextInt(6) + 1;
-      rightnum = Random().nextInt(6) + 1;
+      leftnumber = Random().nextInt(6) + 1;
+      rightnumber = Random().nextInt(6) + 1;
     });
   }
 
