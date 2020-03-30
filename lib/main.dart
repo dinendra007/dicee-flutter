@@ -41,14 +41,14 @@ class _DicePageState extends State<DicePage> {
                 onPressed: () {
                   changenum();
                 },
-                child: Image.asset('images/dice$leftnum.png')),
+                child: Image.asset('images/dice$leftnumber.png')),
           ),
           Expanded(
             child: FlatButton(
                 onPressed: () {
                   changenum();
                 },
-                child: Image.asset('images/dice$rightnum.png')),
+                child: Image.asset('images/dice$rightnumber.png')),
           ),
         ],
       ),
